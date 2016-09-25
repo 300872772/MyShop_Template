@@ -1,0 +1,144 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="ajaxToolkit" %>
+
+<!DOCTYPE html>
+
+<html>
+<head id="Head1" runat="server">
+    <title></title>
+    <link rel="stylesheet" href="Styles/StyleSheet1.css" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    </head>
+<body>
+    <form id="form1" runat="server">
+            
+
+    <div id="wrapper">
+
+    <div id="banner">
+        <table border-collapse:"separate"; border-top: "3px solid grey";align="top" >
+            <tr style="border:groove;border-color:gray;border-radius: 5px" >
+                  
+                <td height:100%; width:220px; align="top"; style="vertical-align:top"; rowspan="10">
+        <asp:Label ID="Label1" runat="server" ForeColor="White" Text="Label"></asp:Label>
+        <asp:Image ID="Image1" padding="122px" runat="server" ImageUrl="~/Img/Rashona/R_Logo2.png" 
+            Width="350" Height="174px" CssClass="image1" />
+     </td>
+                <td>
+       <asp:Label ID="Label2" runat="server" ForeColor="White" Text="............."></asp:Label>
+               <asp:Image ID="Image2" runat="server" Height="156px" ImageUrl="~/Img/Rashona/ANIGIF2.gif" Width="210px" />
+     </td>
+                    </tr>
+                    </table>
+     </div>    
+        
+    <div id="nevigation">
+        <ul  id="nav">
+        <li>
+       
+    
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Index.aspx">Home</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Pages/Flyer.aspx">Flyer</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Pages/Gallary.aspx">Gallary</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Pages/Up_Coming.aspx">Up-Coming</asp:HyperLink></li>
+               <li><asp:HyperLink ID="HyperLink10" runat="server" NavigateUrl="~/Index.aspx">Webshop</asp:HyperLink></li>
+               <li><asp:HyperLink ID="HyperLink11" runat="server" NavigateUrl="~/Pages/Career.aspx">Career</asp:HyperLink></li> 
+                <li><asp:HyperLink ID="HyperLink13" runat="server" NavigateUrl="~/Pages/About.aspx">About Us</asp:HyperLink></li> 
+
+
+
+         <li style="float: right">
+             <asp:HyperLink ID="lnkLogin" runat="server" NavigateUrl="~/Pages/Account/Login.aspx">Log In</asp:HyperLink>
+            <asp:LinkButton ID="lnkLogOut" runat="server" OnClick="lnkLogOut_Click">Log Out</asp:LinkButton>
+
+        </li>
+        
+            <li style="float: right">
+                <asp:HyperLink ID="lnkRegister" runat="server" NavigateUrl="~/Pages/Account/Register.aspx">Register</asp:HyperLink>
+                <asp:HyperLink ID="litStatus" runat="server" NavigateUrl="~/Pages/ShoppingCart.aspx"></asp:HyperLink>
+            </li>
+           
+
+        </ul>
+    </div>
+
+        
+    
+    
+<table border-collapse:"separate"; border-top: "3px solid grey";align="top" >
+            <tr style="border:groove;border-color:gray;border-radius: 5px" >
+                  
+                <td height:100%; width:220px; align="top"; style="vertical-align:top"; rowspan="10">
+                   
+
+
+<asp:Panel ID="pnlTree" runat="server" style="height:100%; width:200px;">
+   
+
+    <div id="menu">
+        <ul>
+        <li><asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Index.aspx">Shopping Centre</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/Pages/Businesses/Restaurant.aspx">Restaurant</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/Pages/Businesses/CommunityStore.aspx">Community Stores</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HyperLink8" runat="server" NavigateUrl="~/Pages/Businesses/Wholesale.aspx">Wholesale</asp:HyperLink></li>
+        <li><asp:HyperLink ID="HyperLink9" runat="server" NavigateUrl="~/Pages/Businesses/Delivery.aspx">Delivery</asp:HyperLink></li>
+   
+
+        </ul>
+    </div>
+
+                    
+                   
+<div id="tree1">
+    <ul>
+           <li> <asp:TreeView ID="TreeView1" runat="server" OnSelectedNodeChanged="TreeView1_SelectedNodeChanged" ImageSet="Arrows" CssClass="prductName" ForeColor="#993366">
+                 <Nodes>
+                     <asp:TreeNode Text="MANAGEMENT" Value="Newwww Node">
+                     <asp:TreeNode Text="NOTICE BOARD" Value="Local Node">
+                         <asp:TreeNode Text="Meeting Date" Value="On Site Node" runat="server" NavigateUrl="~/Pages/Management/Meeting_date.aspx"></asp:TreeNode>
+                         <asp:TreeNode Text="Decisions" Value="Takeway Node" runat="server" NavigateUrl="~/Pages/Management/Decisions.aspx"></asp:TreeNode>
+                         <asp:TreeNode Text="Others" Value="Takeway Node" runat="server" NavigateUrl="~/Pages/Management/Others.aspx"></asp:TreeNode>
+                     </asp:TreeNode>
+                     <asp:TreeNode Text="REPORT" Value="Grocary Node">
+                         <asp:TreeNode Text="Sales Report" Value="On Site Node" runat="server" NavigateUrl="~/Pages/Management/Report.aspx"></asp:TreeNode>
+                         
+                     </asp:TreeNode>
+                        <asp:TreeNode Text="Manage Product" Value="Grocary Node">
+                         <asp:TreeNode Text="Product Upload" Value="On Site Node" runat="server" NavigateUrl="~/Pages/Management/Management.aspx"></asp:TreeNode>
+                         
+                     </asp:TreeNode>
+                    </asp:TreeNode>
+                 </Nodes>
+             </asp:TreeView></li>
+        </ul>
+    </div>
+         </asp:Panel>
+                </td>
+                <td rowspan="6" style="height:100%; width:5px;">
+                   </td>
+
+                <td rowspan="6" style="height:100%; width:100%;"><div>
+    <div id="content" >
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">      
+           <div style="width: 100%">     
+      
+           </div>
+       </asp:ContentPlaceHolder>
+    </div>
+
+     </div></td></tr>
+        </table> 
+            
+    
+
+
+
+
+
+
+    </div>
+    </form>
+</body>
+</html>

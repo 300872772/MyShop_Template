@@ -1,0 +1,244 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>MyShoppingTemplate</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>MyShoppingTemplate</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <Folder Name="App_Code" TargetFolderName="App_Code">
+        <ProjectItem ReplaceParameters="true" TargetFileName="ClassDiagram.cd">ClassDiagram.cd</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Model1.Context.tt">Model1.Context.tt</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Model1.Context.cs">Model1.Context.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Model1.edmx">Model1.edmx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Model1.Designer.cs">Model1.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Model1.edmx.diagram">Model1.edmx.diagram</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Model1.tt">Model1.tt</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Model1.cs">Model1.cs</ProjectItem>
+        <Folder Name="Models" TargetFolderName="Models">
+          <ProjectItem ReplaceParameters="true" TargetFileName="CartModel.cs">CartModel.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ProductModel.cs">ProductModel.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ProductTypeModel.cs">ProductTypeModel.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="UserInfoModel.cs">UserInfoModel.cs</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Startup1.cs">Startup1.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Bin" TargetFolderName="Bin">
+        <ProjectItem ReplaceParameters="false" TargetFileName="AjaxControlToolkit.dll">AjaxControlToolkit.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="AjaxControlToolkit.dll.refresh">AjaxControlToolkit.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="AjaxMin.dll">AjaxMin.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="AjaxMin.dll.refresh">AjaxMin.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Dewey.Github.dll">Dewey.Github.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Dewey.Github.dll.refresh">Dewey.Github.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="EntityFramework.dll">EntityFramework.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="EntityFramework.dll.refresh">EntityFramework.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="EntityFramework.xml">EntityFramework.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="EntityFramework.SqlServer.dll">EntityFramework.SqlServer.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="EntityFramework.SqlServer.dll.refresh">EntityFramework.SqlServer.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="EntityFramework.SqlServer.xml">EntityFramework.SqlServer.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.AspNet.Identity.Core.dll">Microsoft.AspNet.Identity.Core.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.AspNet.Identity.Core.dll.refresh">Microsoft.AspNet.Identity.Core.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Microsoft.AspNet.Identity.Core.xml">Microsoft.AspNet.Identity.Core.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.AspNet.Identity.EntityFramework.dll">Microsoft.AspNet.Identity.EntityFramework.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.AspNet.Identity.EntityFramework.dll.refresh">Microsoft.AspNet.Identity.EntityFramework.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Microsoft.AspNet.Identity.EntityFramework.xml">Microsoft.AspNet.Identity.EntityFramework.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.AspNet.Identity.Owin.dll">Microsoft.AspNet.Identity.Owin.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.AspNet.Identity.Owin.dll.refresh">Microsoft.AspNet.Identity.Owin.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Microsoft.AspNet.Identity.Owin.xml">Microsoft.AspNet.Identity.Owin.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.Owin.dll">Microsoft.Owin.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.Owin.dll.refresh">Microsoft.Owin.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Microsoft.Owin.xml">Microsoft.Owin.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.Owin.Host.SystemWeb.dll">Microsoft.Owin.Host.SystemWeb.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.Owin.Host.SystemWeb.dll.refresh">Microsoft.Owin.Host.SystemWeb.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Microsoft.Owin.Host.SystemWeb.xml">Microsoft.Owin.Host.SystemWeb.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.Owin.Security.Cookies.dll">Microsoft.Owin.Security.Cookies.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.Owin.Security.Cookies.dll.refresh">Microsoft.Owin.Security.Cookies.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Microsoft.Owin.Security.Cookies.xml">Microsoft.Owin.Security.Cookies.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.Owin.Security.dll">Microsoft.Owin.Security.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.Owin.Security.dll.refresh">Microsoft.Owin.Security.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Microsoft.Owin.Security.xml">Microsoft.Owin.Security.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.Owin.Security.OAuth.dll">Microsoft.Owin.Security.OAuth.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Microsoft.Owin.Security.OAuth.dll.refresh">Microsoft.Owin.Security.OAuth.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Microsoft.Owin.Security.OAuth.xml">Microsoft.Owin.Security.OAuth.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Newtonsoft.Json.dll">Newtonsoft.Json.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Newtonsoft.Json.dll.refresh">Newtonsoft.Json.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Newtonsoft.Json.xml">Newtonsoft.Json.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Octokit.dll">Octokit.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Octokit.dll.refresh">Octokit.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Octokit.xml">Octokit.xml</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Octokit.pdb">Octokit.pdb</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Owin.dll">Owin.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Owin.dll.refresh">Owin.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Chart.Base.dll">Syncfusion.Chart.Base.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Chart.Base.dll.refresh">Syncfusion.Chart.Base.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Chart.Mvc.dll">Syncfusion.Chart.Mvc.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Chart.Mvc.dll.refresh">Syncfusion.Chart.Mvc.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Chart.Wpf.dll">Syncfusion.Chart.Wpf.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Chart.Wpf.dll.refresh">Syncfusion.Chart.Wpf.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Compression.Base.dll">Syncfusion.Compression.Base.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Compression.Base.dll.refresh">Syncfusion.Compression.Base.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Core.dll">Syncfusion.Core.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Core.dll.refresh">Syncfusion.Core.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Diagram.Mvc.dll">Syncfusion.Diagram.Mvc.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Diagram.Mvc.dll.refresh">Syncfusion.Diagram.Mvc.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.DocIO.MVC.dll">Syncfusion.DocIO.MVC.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.DocIO.Mvc.dll.refresh">Syncfusion.DocIO.Mvc.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Gauge.Mvc.dll">Syncfusion.Gauge.Mvc.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Gauge.Mvc.dll.refresh">Syncfusion.Gauge.Mvc.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Gauge.WPF.dll">Syncfusion.Gauge.WPF.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Gauge.Wpf.dll.refresh">Syncfusion.Gauge.Wpf.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Grid.Mvc.dll">Syncfusion.Grid.Mvc.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Grid.Mvc.dll.refresh">Syncfusion.Grid.Mvc.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Olap.Base.dll">Syncfusion.Olap.Base.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Olap.Base.dll.refresh">Syncfusion.Olap.Base.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.OlapChart.Mvc.dll">Syncfusion.OlapChart.Mvc.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.OlapChart.Mvc.dll.refresh">Syncfusion.OlapChart.Mvc.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.OlapClient.MVC.dll">Syncfusion.OlapClient.MVC.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.OlapClient.MVC.dll.refresh">Syncfusion.OlapClient.MVC.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.OlapGrid.Mvc.dll">Syncfusion.OlapGrid.Mvc.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.OlapGrid.Mvc.dll.refresh">Syncfusion.OlapGrid.Mvc.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.OlapShared.MVC.dll">Syncfusion.OlapShared.MVC.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.OlapShared.Mvc.dll.refresh">Syncfusion.OlapShared.Mvc.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Pdf.Base.dll">Syncfusion.Pdf.Base.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Pdf.Base.dll.refresh">Syncfusion.Pdf.Base.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Pdf.Mvc.dll">Syncfusion.Pdf.Mvc.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Pdf.Mvc.dll.refresh">Syncfusion.Pdf.Mvc.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.PdfViewer.Mvc.dll">Syncfusion.PdfViewer.Mvc.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.PdfViewer.Mvc.dll.refresh">Syncfusion.PdfViewer.Mvc.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.ReportViewer.Mvc.dll">Syncfusion.ReportViewer.Mvc.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.ReportViewer.Mvc.dll.refresh">Syncfusion.ReportViewer.Mvc.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.ReportWriter.Base.dll">Syncfusion.ReportWriter.Base.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.ReportWriter.Base.dll.refresh">Syncfusion.ReportWriter.Base.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Schedule.Mvc.dll">Syncfusion.Schedule.Mvc.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Schedule.Mvc.dll.refresh">Syncfusion.Schedule.Mvc.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Shared.Base.dll">Syncfusion.Shared.Base.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Shared.Base.dll.refresh">Syncfusion.Shared.Base.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Shared.Mvc.dll">Syncfusion.Shared.Mvc.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Shared.Mvc.dll.refresh">Syncfusion.Shared.Mvc.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Shared.Wpf.dll">Syncfusion.Shared.Wpf.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Shared.Wpf.dll.refresh">Syncfusion.Shared.Wpf.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Theme.Base.dll">Syncfusion.Theme.Base.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Theme.Base.dll.refresh">Syncfusion.Theme.Base.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Tools.Mvc.dll">Syncfusion.Tools.Mvc.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.Tools.Mvc.dll.refresh">Syncfusion.Tools.Mvc.dll.refresh</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.XlsIO.Mvc.dll">Syncfusion.XlsIO.Mvc.dll</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Syncfusion.XlsIO.Mvc.dll.refresh">Syncfusion.XlsIO.Mvc.dll.refresh</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx">Default.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx.cs">Default.aspx.cs</ProjectItem>
+      <Folder Name="Img" TargetFolderName="Img">
+        <Folder Name="Products" TargetFolderName="Products">
+          <ProjectItem ReplaceParameters="false" TargetFileName="apple1.jpg">apple1.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Bread.jpg">Bread.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="cookies.jpg">cookies.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="dice.png">dice.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="lock.png">lock.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="mailbox.png">mailbox.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="milk.png">milk.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="oil.jpg">oil.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="onion.jpg">onion.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="oranges.jpg">oranges.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="pensil.png">pensil.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="potato.png">potato.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="rice.jpg">rice.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Strawberries.png">Strawberries.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="telescope.png">telescope.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Tomato.png">Tomato.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="usb.png">usb.png</ProjectItem>
+        </Folder>
+        <Folder Name="Rashona" TargetFolderName="Rashona">
+          <ProjectItem ReplaceParameters="false" TargetFileName="ANIGIF2.gif">ANIGIF2.gif</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="ANIGIF3.gif">ANIGIF3.gif</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Galary.jpg">Galary.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="GIF2.gif">GIF2.gif</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="GIF3.gif">GIF3.gif</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="GrandOpenning.jpg">GrandOpenning.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="R.Logo3.png">R.Logo3.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="R_Logo1.png">R_Logo1.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="R_Logo2.png">R_Logo2.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="Rashona1.jpg">Rashona1.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="RasonaOpening.jpg">RasonaOpening.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="RasonaOpening1.jpg">RasonaOpening1.jpg</ProjectItem>
+        </Folder>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Index.aspx">Index.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Index.aspx.cs">Index.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MasterPage.master">MasterPage.master</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="MasterPage.master.cs">MasterPage.master.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <Folder Name="Pages" TargetFolderName="Pages">
+        <ProjectItem ReplaceParameters="true" TargetFileName="About.aspx">About.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="About.aspx.cs">About.aspx.cs</ProjectItem>
+        <Folder Name="Account" TargetFolderName="Account">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Login.aspx">Login.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Login.aspx.cs">Login.aspx.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Register.aspx">Register.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Register.aspx.cs">Register.aspx.cs</ProjectItem>
+        </Folder>
+        <Folder Name="Businesses" TargetFolderName="Businesses">
+          <ProjectItem ReplaceParameters="true" TargetFileName="CommunityStore.aspx">CommunityStore.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="CommunityStore.aspx.cs">CommunityStore.aspx.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Delivery.aspx">Delivery.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Delivery.aspx.cs">Delivery.aspx.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Restaurant.aspx">Restaurant.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Restaurant.aspx.cs">Restaurant.aspx.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ShopppingCentre.aspx">ShopppingCentre.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ShopppingCentre.aspx.cs">ShopppingCentre.aspx.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Wholesale.aspx">Wholesale.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Wholesale.aspx.cs">Wholesale.aspx.cs</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Career.aspx">Career.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Career.aspx.cs">Career.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Flyer.aspx">Flyer.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Flyer.aspx.cs">Flyer.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Gallary.aspx">Gallary.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Gallary.aspx.cs">Gallary.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Home.aspx">Home.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Home.aspx.cs">Home.aspx.cs</ProjectItem>
+        <Folder Name="Management" TargetFolderName="Management">
+          <ProjectItem ReplaceParameters="true" TargetFileName="Decisions.aspx">Decisions.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Decisions.aspx.cs">Decisions.aspx.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Management.aspx">Management.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Management.aspx.cs">Management.aspx.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ManageProduct.aspx">ManageProduct.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ManageProduct.aspx.cs">ManageProduct.aspx.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ManageProductTypes.aspx">ManageProductTypes.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="ManageProductTypes.aspx.cs">ManageProductTypes.aspx.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Meeting_Date.aspx">Meeting_Date.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Meeting_Date.aspx.cs">Meeting_Date.aspx.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Others.aspx">Others.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Others.aspx.cs">Others.aspx.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Report.aspx">Report.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Report.aspx.cs">Report.aspx.cs</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Sales_Report.aspx">Sales_Report.aspx</ProjectItem>
+          <ProjectItem ReplaceParameters="true" TargetFileName="Sales_Report.aspx.cs">Sales_Report.aspx.cs</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Product.aspx">Product.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Product.aspx.cs">Product.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ShoppingCart.aspx">ShoppingCart.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="ShoppingCart.aspx.cs">ShoppingCart.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Success.aspx">Success.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Success.aspx.cs">Success.aspx.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Up_Coming.aspx">Up_Coming.aspx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Up_Coming.aspx.cs">Up_Coming.aspx.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Styles" TargetFolderName="Styles">
+        <ProjectItem ReplaceParameters="true" TargetFileName="StyleSheet1.css">StyleSheet1.css</ProjectItem>
+      </Folder>
+      <Folder Name="Views" TargetFolderName="Views">
+        <ProjectItem ReplaceParameters="true" TargetFileName="web.config">web.config</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="false" TargetFileName="vwd.webinfo">vwd.webinfo</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="web.config">web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="website.publishproj">website.publishproj</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
